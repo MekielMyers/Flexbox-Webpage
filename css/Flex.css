@@ -1,0 +1,46 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    padding:5px;
+    height: 200px;
+    width: auto;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    height: 300px;
+    width: auto;
+}
+.body{
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    width: auto;
+    margin: 0%;
+}
+.article{
+    background-color: aqua;
+    height: 400px;
+    width: 700px;
+
+}
+.aside{
+    background-color: aquamarine;
+    height: 400px;
+    width: 450px;
+
+}
+.nav{
+    background-color: darkkhaki;
+    height: 400px;
+    width: 450px;
+}
+.bodies{
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
